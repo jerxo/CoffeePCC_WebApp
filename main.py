@@ -28,7 +28,7 @@ img = get_img_as_base64("coffee.jpg")
 
 page_bg_img = f"""
 <style>
-[data-testid="stAppViewContainer"] > .main {{
+[data-testid="stAppViewContainer"] {{
     background-image: url("data:image/png;base64,{img}");
     background-size: cover; /* This will cover the entire container without stretching */
     background-position: center center; /* Center the image horizontally and vertically */
